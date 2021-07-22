@@ -5,7 +5,7 @@
       v-model="numeroDos"
       @estoyActualizandoAlpadre="actualizarValorEnApp"
     /-->
-    <e-input v-model="numeroDos" />
+    <e-input v-model="numeroDos" mask="$ " />
   </div>
 </template>
 
